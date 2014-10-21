@@ -16,7 +16,11 @@ Password <input type="text" name="password"><br>
 </form>
 
 <?php
+<<<<<<< HEAD
 //echo "Hello";
+=======
+echo "Hello wolrd!";
+>>>>>>> origin/master
 ?>
 </div>
 </body>
