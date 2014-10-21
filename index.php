@@ -14,14 +14,6 @@ Password <input type="text" name="password"><br>
 <input type="submit" value="Log in">
 </fieldset>
 </form>
-
-<?php
-<<<<<<< HEAD
-//echo "Hello";
-=======
-echo "Hello wolrd!";
->>>>>>> origin/master
-?>
 </div>
 </body>
 </html>
