@@ -5,7 +5,7 @@
 <body>
 
 <?php
-echo "Hello";
+echo "Hello wolrd!";
 ?>
 
 </body>
