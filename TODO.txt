@@ -1,0 +1,10 @@
+lets use this txt to add / complete jobs that need doing
+
+[mlogic1]22.10.2014
+-create register.php with a form so a user can register (username, name, lastname, password, repeatpassword, e-mail)
+-learn about mysql databases
+-create mysql database where users are stored when registered, also figure out a way how to make users friends with each other (maybe even implement MD5 password hashing, but that later)
+-fix hardcoded login screen to work with the database
+-decide how the homepage will look for each user (social.php)
+-decide how the profile page will look for each user (im thinking we do something like profile/username, like if i click your profile it will take me to social-website/profile/jakov)
+-create a folder that each user has for images (probably need databases to do this)(where he uploads them and they are displayed on his profile)
