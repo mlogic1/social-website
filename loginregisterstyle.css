@@ -1,0 +1,55 @@
+h2.header{
+	color:#0000DD;
+	}
+
+div.forms {
+	margin-left:35%;
+	margin-right:35%;
+	border-radius:5px;
+	border-width:1px;
+	border-style:solid;
+	border-color:#919191;
+	background-image:url('images/sativa.png');
+	}
+	
+body{
+	background-image:url('images/school.png');
+	}
+	
+	
+	
+.inputbox{
+	width:150px;
+	border-radius:5px;
+	border-width:1px;
+	border-style:solid;
+	border-color:#919191;
+	}
+	
+.submit_button:hover{
+	background-color:#FF9933;
+	text-decoration:none;
+	color:#FFFFFF;
+}
+
+
+.submit_button{
+	padding:0 0 3px 0;
+	cursor:pointer;
+	background-color:#EC5500;
+	display:block;
+	text-align:center;
+	margin-top:8px;
+	width:174px;
+	height:21px;
+	border-radius:5px;
+	border-width:1px;
+	border-style:solid;
+	border-color:#919191;
+	font-family:Verdana;
+	font-size:13px;
+	font-style:normal;
+	line-height:normal;
+	font-weight:bold;
+	color:#FFFFFF;
+	}

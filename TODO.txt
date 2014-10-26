@@ -8,3 +8,10 @@ lets use this txt to add / complete jobs that need doing
 -decide how the homepage will look for each user (social.php)
 -decide how the profile page will look for each user (im thinking we do something like profile/username, like if i click your profile it will take me to social-website/profile/jakov)
 -create a folder that each user has for images (probably need databases to do this)(where he uploads them and they are displayed on his profile)
+
+26.10.2014
+-added a register.php register form (POST action needs to be speicified in order to register the user to the DB (comment inside the php file)
+-added images folder along with 2 seamless images from the interwebs (just placeholders)
+-added a css file (loginregisterstyle.css) with some basic designs for registration and login form, found a cool round button template online
+-removed plain text from login screen and used text inside the texboxes as hints instead. this is a new HTML5 feature called placeholder. this helped center the inputboxes.
+-added registration link at the bottom of login form, as well as login link to the register page
