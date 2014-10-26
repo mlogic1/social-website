@@ -10,7 +10,7 @@
 							<input type="text" name="username" class="inputbox" placeholder = "Username"><br><br>
 							<input type="password" name="password" class="inputbox" placeholder = "Password"><br><br>
 							<input  type="submit" value="Log in" class="submit_button"><br>
-							<a href = "register.php">Not a member yet? Register here</a>
+							<a href = "register.php">Not a member yet? Register here</a><br>
 							<a href = "https://github.com/mlogic1/social-website"><br>Fork this project on GitHub!</a>
 						</form>
 			</div>
