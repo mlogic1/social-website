@@ -1,0 +1,8 @@
+open xampp, in there click Admin in the MySql row, it will take you to phpmyadmin
+from there click databases and under database name write users (so we have the same name DB). Click Create.
+On the left you will see the new database, click it. name the new table user with 4 colums. (firstname, lastname, password, username) no caps!
+all are varchar(20). only password is varchar(64).
+
+main code is still untouched
+
+register.php is basically our copy that runs db.php script that registers new users. 
