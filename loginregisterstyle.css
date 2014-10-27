@@ -26,7 +26,11 @@ body{
 	border-style:solid;
 	border-color:#919191;
 	}
-	
+
+.inputbox:focus{
+	background-color:#FFFF66;
+	}
+
 .submit_button:hover{
 	background-color:#FF9933;
 	text-decoration:none;
