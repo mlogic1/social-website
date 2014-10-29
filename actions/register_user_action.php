@@ -31,7 +31,12 @@ VALUES ('$firstname', '$lastname', '$password', '$username')";
 
 
 if($db->query($sql) === TRUE){
-	echo "Successfully added a new user to the DB";
+	echo "Successfully added a new user to the DB<br>";
+	$imagespath = "images/" . $username;
+	$foldercreator = mkdir($imagespath, 0777);
+		if($foldercreator == 1){
+				echo "Created user folder for images: <b>" . $imagespath . "</b>";
+		}
 }else{
 	echo "<b>Something went wrong: </b>" . $sql . $db->error;
 	}
