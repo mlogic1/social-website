@@ -7,7 +7,7 @@
 		<body>
 			<div class="forms" align = "center">
 				<h2 class="header">Please Login</h2>
-						<form name="login" action="login.php" method="post">
+						<form name="login" action="actions/login_user_action.php" method="post">
 							<input type="text" name="username" class="inputbox" placeholder = "Username"><br><br>
 							<input type="password" name="password" class="inputbox" placeholder = "Password"><br><br>
 							<input  type="submit" value="Log in" class="submit_button"><br>

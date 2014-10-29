@@ -13,7 +13,7 @@ $lastname = $_POST['lastname'];
 
 if($password !== $password2){
 	echo "Passwords do not match! Please try again! Redirecting...";
-	header("refresh:10;url=register.php");
+	header("refresh:10;url=../register.php");
 	return;
 }
 
@@ -22,6 +22,8 @@ $db = new mysqli('localhost', $user, $pass, $db) or die("Error connecting to dat
 
 //no error, proceed
 echo "Successfully connected to the database! <br>";
+header("refresh:5;url=index.php");
+
 
 //add values to the DB
 $sql = "INSERT INTO user (firstname, lastname, password, username)

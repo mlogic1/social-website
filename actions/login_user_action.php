@@ -5,7 +5,7 @@
 	<body>
 		<?php
 		
-		require('User.php');
+		require('../User.php');
 
 		$user = $_POST['username'];
 		$pwd = $_POST['password'];
@@ -21,11 +21,11 @@
 				$_SESSION['UserObject']= serialize($userObj);
 				echo "pas3";
 				
-				header("refresh:2;url=social.php");
+				header("refresh:2;url=../social_front_page.php");
 				echo "pass4 ";
 			}else{
 				echo "Bad password, redirecting back to login in 3 seconds";
-				header("refresh:3;url=index.php");
+				header("refresh:3;url=../index.php");
 			}
 		?>
 

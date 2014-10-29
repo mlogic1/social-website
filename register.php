@@ -6,7 +6,7 @@
 		<body>
 			<div class="forms" align = "center">
 				<h2 class="header">New User Registration</h2>
-						<form name="registration" action="db.php" method="post">
+						<form name="registration" action="actions/register_user_action.php" method="post">
 							<input type="text" name="username" class="inputbox" placeholder = "Username"><br><br>
 							<input type="password" name="password" class="inputbox" placeholder = "Password"><br><br>
 							<input type="password" name="password2" class="inputbox" placeholder = "Repeat Password"><br><br>
